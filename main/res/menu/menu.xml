@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/addbtn"
+        android:title="add"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/form1"
+                android:title="Add Case"
+                android:icon="@drawable/newc"/>
+            <!--android:onClick="onSort" -->
+            <item
+                android:id="@+id/form2"
+                android:title="Add Patient"
+                android:icon="@drawable/addpatient"/>
+
+            <item
+                android:id="@+id/form3"
+                android:title="Search Patients"
+                android:icon="@drawable/search"/>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:title="Profile"
+                android:icon="@drawable/profile"/>
+            <item
+                android:id="@+id/About"
+                android:title="About"
+                android:icon="@drawable/about"/>
+        </menu>
+    </item>
+
+</menu>

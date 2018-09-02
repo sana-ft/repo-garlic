@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Medical Logbook</string>
+
+    <!-- Dialog List Items -->
+    <string-array name="dialog_items">
+        <item>View and Edit Log</item>
+        <item>Delete Log</item>
+    </string-array>
+
+    <string-array name="dialog_itemsPatient">
+        <item>Choose Patient</item>
+        <item>View and Edit Patient</item>
+        <item>Delete Patient</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
